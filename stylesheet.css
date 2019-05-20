@@ -1,0 +1,97 @@
+body  {
+	background-color: #232323;
+	margin: 0;
+	font-family:  "Avenir";
+}
+
+.header  {
+	color: white;
+	text-align: center;
+	background-color: steelblue;	
+}
+
+
+h1 {
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+
+#correctcolor {
+	font-size: 40px;
+	font-family: "Montserrat";
+}
+
+.container1 {
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    color: black;
+}
+
+button {
+	border: none;
+	background-color: white;
+	height: 100%;
+	font-size: inherit;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-weight: 700;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	outline: none;
+} 
+
+span {
+	display: inline-block;
+	width: 20%;
+}
+
+.container  {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.square  {
+	width: 30%;
+	padding-bottom:  30%;
+	border-radius: 25px;
+	transition: background-color .5s;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	float: left;
+	margin: 1.66% 	
+}
+
+button:hover {
+	background-color: steelblue;
+	color: white;
+}
+
+.selected {
+	background-color: black;
+}
+
+#space {
+	width: 32%;
+	display: block;
+	float: left;
+
+}
+
+.descme {
+	width: 33%;
+	text-align: center;
+	float: left;
+	margin: auto;
+	color: black;
+	padding: 5px;
+	background-color: white;
+	border-radius: 20px;
+	font-weight: 900;
+	font-size: 25px;  
+	display: block;
+	text-decoration: none;
+}
